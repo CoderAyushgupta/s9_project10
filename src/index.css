@@ -21,3 +21,20 @@ body {
 .demo-card {
   border-radius: 1rem;
 }
+
+/* overlay tweaks for uploaded background */
+.bg-overlay img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Make sure backdrop blur works across browsers where supported */
+.backdrop-blur-fallback {
+  background-color: rgba(255,255,255,0.6);
+}
+
+/* Ensure inputs look consistent */
+input::placeholder {
+  color: #9AA4B2;
+}
